@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+- Node FullFolder to copy entry content. In php only need define source and target
+- Node Folder to make directory with name directory defined in node Path
+- Node Folder to copy file with path file defined in node Path
+- Node Database to remove database inserted when raise system
+-->
+<addimglist>
+	<FullFolder>
+		<Path>/core/protected/extensions/addimgupload/</Path>
+		<Path>/core/protected/modules/addimglist/</Path>
+		<Path>/core/protected/modules/admin/views/addimglist/</Path>
+	</FullFolder>
+	<Folder>
+		<Path>/themes/</Path>
+		<Path>/images/addimglist/</Path>
+		<Path>/themes/brooklyn/</Path>
+		<Path>/themes/brooklyn/views/</Path>
+		<Path>/themes/brooklyn/views/search/</Path>
+		<Path>/core/protected/views/</Path>
+		<Path>/core/protected/views/product/</Path>
+		<Path>/core/protected/modules/admin/</Path>
+		<Path>/core/protected/modules/admin/controllers/</Path>
+		<Path>/core/protected/modules/admin/models/</Path>
+		<Path>/custom/</Path>
+		<Path>/custom/models/</Path>
+	</Folder>	
+	<File>
+		<Name>/core/protected/modules/admin/controllers/AddimglistController.php</Name>
+		<Name>/custom/models/Addimglist.php</Name>
+		<Name>/themes/brooklyn/views/search/grid.php</Name>
+		<Name>/core/protected/modules/addimglist/config.xml</Name>
+	</File>
+	<Database>
+		<Table>
+			<Name>xlsws_mod_addimglist</Name>
+		</Table>
+		<Row>
+			<From>xlsws_configuration</From>
+			<Key>configuration_type_id</Key>
+			<Value>82</Value>
+		</Row>
+	</Database>
+</addimglist>
