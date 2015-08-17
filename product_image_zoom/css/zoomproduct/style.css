@@ -1,0 +1,5 @@
+.files .delete input {
+    float: left;
+    margin-right: 5px;
+}
+.files .delete span{line-height:20px;height:20px;}

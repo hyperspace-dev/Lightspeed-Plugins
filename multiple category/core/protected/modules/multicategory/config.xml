@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<multicategory>
+	<Folder>
+		<Path>/css/</Path>
+		<Path>/css/multicategory/</Path>
+		<Path>/css/multicategory/css/</Path>
+		<Path>/css/multicategory/css/image/</Path>
+		<Path>/core/</Path>
+		<Path>/core/protected/</Path>
+		<Path>/core/protected/views/</Path>
+		<Path>/core/protected/modules/</Path>
+		<Path>/core/protected/modules/multicategory/</Path>
+		<Path>/core/protected/modules/multicategory/controllers/</Path>
+		<Path>/core/protected/modules/multicategory/models/</Path>
+		<Path>/core/protected/modules/multicategory/views/</Path>
+		<Path>/core/protected/modules/multicategory/views/default/</Path>
+		<Path>/core/protected/modules/admin/</Path>
+		<Path>/core/protected/modules/admin/controllers/</Path>
+		<Path>/core/protected/modules/admin/models/</Path>
+		<Path>/core/protected/modules/admin/views/</Path>
+		<Path>/core/protected/modules/admin/views/multicategory/</Path>
+		<Path>/custom/</Path>
+		<Path>/custom/models/</Path>
+	</Folder>	
+	<File>
+		<Name>/core/protected/modules/multicategory/MulticategoryModule.php</Name>
+		<Name>/core/protected/modules/multicategory/controllers/DefaultController.php</Name>
+		<Name>/core/protected/modules/admin/controllers/MulticategoryController.php</Name>
+		<Name>/custom/models/Multicategory.php</Name>
+		<Name>/core/protected/modules/admin/views/multicategory/index.php</Name>
+		<Name>/core/protected/modules/admin/views/multicategory/view.php</Name>
+		<Name>/core/protected/modules/multicategory/config.xml</Name>
+	</File>
+	<Database>
+		<Table>
+			<Name>xlsws_mod_multicategory</Name>
+		</Table>
+	</Database>
+</multicategory>

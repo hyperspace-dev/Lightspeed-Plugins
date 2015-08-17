@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+- Node FullFolder to copy entry content. In php only need define source and target
+- Node Folder to make directory with name directory defined in node Path
+- Node Folder to copy file with path file defined in node Path
+- Node Database to remove database inserted when raise system
+-->
+<zoomproduct>
+	<FullFolder>
+		<Path>/css/zoomproduct/</Path>
+		<Path>/core/protected/extensions/zoomupload/</Path>
+		<Path>/core/protected/extensions/magiczmenu/</Path>
+		<Path>/core/protected/modules/zoomproduct/</Path>
+		<Path>/core/protected/modules/admin/views/zoomproduct/</Path>
+	</FullFolder>
+	<Folder>
+		<Path>/core/protected/views-cities/</Path>
+		<Path>/core/protected/views-cities/product/</Path>
+		<Path>/core/protected/modules/admin/</Path>
+		<Path>/core/protected/modules/admin/controllers/</Path>
+		<Path>/core/protected/modules/admin/models/</Path>
+		<Path>/custom/</Path>
+		<Path>/custom/models/</Path>
+	</Folder>	
+	<File>
+		<Name>/core/protected/modules/admin/controllers/ZoomproductController.php</Name>
+		<Name>/custom/models/Zoomproduct.php</Name>
+		<Name>/core/protected/views-cities/product/_photosmagic.php</Name>
+		<Name>/core/protected/modules/zoomproduct/config.xml</Name>
+	</File>
+	<Database>
+		<Table>
+			<Name>xlsws_mod_zoomproduct</Name>
+		</Table>
+	</Database>
+</zoomproduct>
