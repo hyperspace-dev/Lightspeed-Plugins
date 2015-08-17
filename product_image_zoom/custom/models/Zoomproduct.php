@@ -170,7 +170,6 @@ class Zoomproduct extends CActiveRecord
 				$primaryImage['image_large'] = "http://res.cloudinary.com/lightspeed-retail/image/upload/c_fit,h_".Zoomproduct::getConfig('DETAIL_IMAGE_HEIGHT').",w_".Zoomproduct::getConfig('DETAIL_IMAGE_WIDTH')."/v1389476545/no_product.png";
 				$primaryImage['image'] = "http://res.cloudinary.com/lightspeed-retail/image/upload/c_fit,h_".Zoomproduct::getConfig('DETAIL_IMAGE_HEIGHT').",w_".Zoomproduct::getConfig('DETAIL_IMAGE_WIDTH')."/v1389476545/no_product.png";
 				$primaryImage['image_thumb'] = "http://res.cloudinary.com/lightspeed-retail/image/upload/c_fit,h_".Zoomproduct::getConfig('DETAIL_IMAGE_HEIGHT').",w_".Zoomproduct::getConfig('DETAIL_IMAGE_WIDTH')."/v1389476545/no_product.png";
-				$primaryImage['image_thumb'] = "http://res.cloudinary.com/lightspeed-retail/image/upload/c_fit,h_".Zoomproduct::getConfig('DETAIL_IMAGE_HEIGHT').",w_".Zoomproduct::getConfig('DETAIL_IMAGE_WIDTH')."/v1389476545/no_product.png";
 				return $primaryImage;
 			}
 			$primaryImage['image'] = Images::GetImageUri($url,true);
